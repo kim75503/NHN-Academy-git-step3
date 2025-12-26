@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         /*
         구현 목표: TODO 앱의 메뉴가 반복 출력되고, 선택에 따라 분기 처리할 수 있다.
 
@@ -43,7 +43,10 @@ public class Main {
             System.out.println("2. 조회");
             System.out.println("0. 종료");
             System.out.print("선택 > ");
-            input = reader.readLine();
+            
+            
+            try{
+                input = reader.readLine();
 
             switch(input){
                 case "1" : 
@@ -58,10 +61,18 @@ public class Main {
                     break;
                 default:
                     System.out.println("잘못된 입력 입니다." ); 
+                }
+            }catch(IOException e){
+                e.printStackTrace();
             }
-                
-            
         }
+        try {
+            reader.close();
+        } catch (IOException e) {
         
+            
     }
+    }
+        
 }
+
