@@ -1,4 +1,4 @@
-package com.nhnacademy.practice_problems_17;
+package com.nhnacademy.Switchcase.practice_problems_17;
 
 public class Main {
     public static void main(String[] args) {

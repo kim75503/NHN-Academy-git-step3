@@ -1,4 +1,4 @@
-package com.nhnacademy.practice_problems_26;
+package com.nhnacademy.branchStatement.practice_problems_26;
 
 public class Main {
     public static void main(String[] args) {

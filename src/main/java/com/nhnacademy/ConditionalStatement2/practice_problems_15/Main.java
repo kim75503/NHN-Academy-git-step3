@@ -1,4 +1,4 @@
-package com.nhnacademy.practice_problems_15;
+package com.nhnacademy.ConditionalStatement2.practice_problems_15;
 
 public class Main {
     public static void main(String[] args) {

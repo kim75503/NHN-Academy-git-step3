@@ -1,4 +1,4 @@
-package com.nhnacademy.practice_problems_21;
+package com.nhnacademy.switchExpression.practice_problems_21;
 
 public class Main {
     public static void main(String[] args) {
